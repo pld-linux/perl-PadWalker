@@ -3,7 +3,7 @@
 %bcond_without	tests # do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	PadWalker
+%define		pdir	PadWalker
 Summary:	PadWalker - play with other peoples' lexical variables
 Summary(pl):	PadWalker - igranie z cudzymi zmiennymi leksykalnymi
 Name:		perl-PadWalker
