@@ -12,7 +12,7 @@ Release:	1
 # same as perl
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-authors/id/J/JU/JUERD/%{pdir}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-authors/id/R/RO/ROBIN/%{pdir}-%{version}.tar.gz
 # Source0-md5:	e6f48685932c1a1896872daf1aff9e3d
 BuildRequires:	perl-devel >= 5.6
 BuildRequires:	rpm-perlprov >= 4.1-13
