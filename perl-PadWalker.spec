@@ -5,7 +5,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	PadWalker
 Summary:	PadWalker - play with other peoples' lexical variables
-Summary(pl):	PadWalker - igranie z cudzymi zmiennymi leksykalnymi
+Summary(pl.UTF-8):   PadWalker - igranie z cudzymi zmiennymi leksykalnymi
 Name:		perl-PadWalker
 Version:	1.1
 Release:	1
@@ -23,11 +23,11 @@ PadWalker is a Perl module which allows you to inspect (and even
 change!) lexical variables in any subroutine which called you. It will
 only show those variables which are in scope at the point of the call.
 
-%description -l pl
-PadWalker jest modu³em Perla umo¿liwiaj±cym przegl±danie (a nawet
-modyfikacje!) zmiennych leksykalnych w dowolnej wywo³anej funkcji.
-Pokazuje on tylko te zmienne, których zasiêg obejmuje miejsce
-wywo³ania.
+%description -l pl.UTF-8
+PadWalker jest moduÅ‚em Perla umoÅ¼liwiajÄ…cym przeglÄ…danie (a nawet
+modyfikacje!) zmiennych leksykalnych w dowolnej wywoÅ‚anej funkcji.
+Pokazuje on tylko te zmienne, ktÃ³rych zasiÄ™g obejmuje miejsce
+wywoÅ‚ania.
 
 %prep
 %setup -q -n %{pdir}-%{version}
