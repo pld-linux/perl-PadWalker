@@ -8,7 +8,7 @@ Summary:	PadWalker - play with other peoples' lexical variables
 Summary(pl.UTF-8):	PadWalker - igranie z cudzymi zmiennymi leksykalnymi
 Name:		perl-PadWalker
 Version:	1.9
-Release:	3
+Release:	4
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
