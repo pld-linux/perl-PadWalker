@@ -15,7 +15,7 @@ Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-authors/id/R/RO/ROBIN/%{pdir}-%{version}.tar.gz
 # Source0-md5:	6bcc741f77b1831a893b2a22c785e31a
 URL:		http://search.cpan.org/dist/PadWalker/
-BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	perl-devel >= 1:5.8.1
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -54,7 +54,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README
-%{perl_vendorarch}/*.pm
-%dir %{perl_vendorarch}/auto/%{pdir}
-%attr(755,root,root) %{perl_vendorarch}/auto/%{pdir}/*.so
-%{_mandir}/man3/*
+%{perl_vendorarch}/PadWalker.pm
+%dir %{perl_vendorarch}/auto/PadWalker
+%attr(755,root,root) %{perl_vendorarch}/auto/PadWalker/PadWalker.so
+%{_mandir}/man3/PadWalker.3pm*
