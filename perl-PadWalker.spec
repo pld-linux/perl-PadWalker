@@ -6,16 +6,18 @@
 Summary:	PadWalker - play with other peoples' lexical variables
 Summary(pl.UTF-8):	PadWalker - igranie z cudzymi zmiennymi leksykalnymi
 Name:		perl-PadWalker
-Version:	2.3
-Release:	3
+Version:	2.5
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-authors/id/R/RO/ROBIN/%{pdir}-%{version}.tar.gz
-# Source0-md5:	361ba6079224d6710a2e2c4131875f0b
-URL:		http://search.cpan.org/dist/PadWalker/
+# Source0-md5:	f3f1e06c0385aab80353176a414f02b2
+URL:		https://metacpan.org/release/PadWalker
+BuildRequires:	perl-ExtUtils-MakeMaker
 BuildRequires:	perl-devel >= 1:5.8.1
 BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	rpmbuild(macros) >= 1.745
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
