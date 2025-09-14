@@ -1,6 +1,6 @@
 #
 # Conditional build:
-%bcond_without	tests # do not perform "make test"
+%bcond_without	tests	# unit tests
 #
 %define		pdir	PadWalker
 Summary:	PadWalker - play with other peoples' lexical variables
@@ -11,9 +11,9 @@ Release:	6
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-authors/id/R/RO/ROBIN/%{pdir}-%{version}.tar.gz
+Source0:	https://www.cpan.org/modules/by-authors/id/R/RO/ROBIN/%{pdir}-%{version}.tar.gz
 # Source0-md5:	f3f1e06c0385aab80353176a414f02b2
-URL:		https://metacpan.org/release/PadWalker
+URL:		https://metacpan.org/dist/PadWalker
 BuildRequires:	perl-ExtUtils-MakeMaker
 BuildRequires:	perl-devel >= 1:5.8.1
 BuildRequires:	rpm-perlprov >= 4.1-13
